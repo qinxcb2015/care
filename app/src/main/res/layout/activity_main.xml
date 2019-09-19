@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.xxjr.xxyun.activity.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/main_iv_beij"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:src="@mipmap/beij" />
+
+    <com.fangxu.allangleexpandablebutton.AllAngleExpandableButton
+        android:id="@+id/main_eBtn_upContacts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        app:aebAnimDurationMillis="175"
+        app:aebBlurBackground="true"
+        app:aebButtonElevation="4dp"
+        app:aebButtonGapDp="45dp"
+        app:aebEndAngleDegree="125"
+        app:aebIsSelectionMode="false"
+        app:aebMainButtonRotateAnimDurationMillis="300"
+        app:aebMainButtonRotateDegree="-135"
+        app:aebMainButtonSizeDp="76dp"
+        app:aebRippleEffect="true"
+        app:aebStartAngleDegree="55"
+        app:aebSubButtonSizeDp="55dp" />
+
+    <TextView
+        android:id="@+id/main_tv_tongbu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/main_eBtn_upContacts"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dp8"
+        android:text="最近同步"
+        android:textColor="@color/text_4d4d4d"
+        android:textSize="@dimen/sp12" />
+
+    <TextView
+        android:id="@+id/main_tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/main_tv_tongbu"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dp8"
+        android:text="未知"
+        android:textColor="@color/text_4d4d4d"
+        android:textSize="@dimen/sp16" />
+
+    <LinearLayout
+        android:id="@+id/main_ll_head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp30"
+        android:gravity="center_vertical">
+
+
+        <ImageView
+            android:id="@+id/main_iv_head"
+            android:layout_width="@dimen/dp45"
+            android:layout_height="@dimen/dp45"
+            android:layout_marginLeft="@dimen/dp14"
+            android:scaleType="fitXY"
+            android:src="@mipmap/toux" />
+
+        <LinearLayout
+            android:id="@+id/main_ll_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp15"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/main_tv_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="未登录"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/sp14" />
+
+                <Button
+                    android:id="@+id/main_btn_netty_status"
+                    android:layout_width="@dimen/dp30"
+                    android:layout_height="@dimen/dp15"
+                    android:layout_marginLeft="@dimen/dp8"
+                    android:background="@drawable/comm_r6_6fb5f8"
+                    android:text="离线"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/sp9" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/main_tv_tel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp14" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/main_ll_set"
+            android:layout_width="@dimen/dp45"
+            android:layout_height="@dimen/dp45"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/jiant_right_white" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/main_ll_netty_outline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/main_ll_head"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dp20"
+        android:background="@drawable/comm_r10_5a93d1"
+        android:paddingBottom="@dimen/dp4"
+        android:paddingLeft="@dimen/dp10"
+        android:paddingRight="@dimen/dp10"
+        android:paddingTop="@dimen/dp4">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="您现在处于离线状态!"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp11" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp15"
+            android:text="重新上线"
+            android:textColor="@color/text_ffdd53"
+            android:textSize="@dimen/sp11" />
+    </LinearLayout>
+
+
+</RelativeLayout>

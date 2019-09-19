@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--共用-->
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#ffffff</color>
+    <color name="text_333333">#333333</color>
+    <color name="bg_f7f7f7">#f7f7f7</color>
+    <color name="bg_f5f5f5">#f5f5f5</color>
+    <color name="bg_f4f5f9">#f4f5f9</color>
+    <color name="bg_d9d9d9">#d9d9d9</color>
+    <color name="text_4d4d4d">#4d4d4d</color>
+    <color name="text_cdcdcd">#cdcdcd</color>
+    <color name="text_000000">#000000</color>
+    <color name="text_505050">#505050</color>
+    <color name="text_d4d8db">#d4d8db</color>
+    <color name="text_030303">#030303</color>
+    <color name="text_387be9">#387be9</color>
+    <color name="text_338ae9">#338ae9</color>
+    <color name="text_3b86e3">#3b86e3</color>
+
+
+    <color name="line_gray">#dedfe0</color>
+    <color name="text_999999">#999999</color>
+    <color name="text_888888">#888888</color>
+    <color name="text_fd9c34">#fd9c34</color>
+    <color name="text_3c7eeb">#3c7eeb</color>
+    <color name="text_cccccc">#cccccc</color>
+    <color name="text_97a1b0">#97a1b0</color>
+    <color name="text_969fac">#969fac</color>
+    <color name="text_4c4c4c">#4c4c4c</color>
+    <color name="text_808080">#808080</color>
+    <color name="text_a7d7ff">#a7d7ff</color>
+    <color name="text_6c6c6c">#6c6c6c</color>
+    <color name="text_a7a7a7">#a7a7a7</color>
+    <color name="text_5f8dda">#5f8dda</color>
+    <color name="text_0a0a0a">#0a0a0a</color>
+    <color name="text_eb4f38">#eb4f38</color>
+    <color name="text_666666">#666666</color>
+    <color name="text_fdb434">#fdb434</color>
+    <color name="text_9a9a9a">#9a9a9a</color>
+    <color name="red_d80001">#d80001</color>
+    <color name="text_303a4b">#303a4b</color>
+    <color name="text_b3b3b3">#b3b3b3</color>
+    <color name="text_555555">#555555</color>
+    <color name="text_38b15a">#38b15a</color>
+    <color name="text_05bd03">#05bd03</color>
+    <color name="text_474747">#474747</color>
+    <color name="text_ffdd53">#ffdd53</color>
+
+
+    <color name="text_cbcbcb">#cbcbcb</color>
+    <color name="text_70d3f3">#70d3f3</color>
+    <color name="text_feb334">#feb334</color>
+    <color name="text_f94949">#f94949</color>
+    <color name="text_f81b1b">#f81b1b</color>
+    <color name="text_1f8df4">#1f8df4</color>
+    <color name="text_6484fa">#6484fa</color>
+
+    <color name="text_fefefe">#fefefe</color>
+    <color name="text_f0f7fe">#f0f7fe</color>
+    <color name="text_20c5fc">#20c5fc</color>
+    <color name="text_4c9aeb">#4c9aeb</color>
+    <color name="text_94c4f6">#94c4f6</color>
+    <color name="text_cc818181">#cc818181</color>
+    <color name="text_656565">#656565</color>
+    <color name="text_7fddfe">#7fddfe</color>
+    <color name="text_7eddfe">#7eddfe</color>
+    <color name="text_fbfafd">#fbfafd</color>
+    <color name="text_3b93f5">#3b93f5</color>
+    <color name="text_9c9c9c">#9c9c9c</color>
+    <color name="text_1a1a1a">#1a1a1a</color>
+    <color name="text_f71d1d">#f71d1d</color>
+    <color name="text_5180bf">#5180bf</color>
+    <color name="text_b3b1b0">#b3b1b0</color>
+
+
+    <color name="bg_2e77e8">#2973e8</color>
+    <color name="bg_f3f3f3">#f3f3f3</color>
+    <color name="bg_f6f8fd">#f6f8fd</color>
+    <color name="bg_eff7fe">#eff7fe</color>
+    <color name="bg_b8c2d2">#b8c2d2</color>
+    <color name="bg_b6c1d3">#b6c1d3</color>
+    <color name="bg_3c80ec">#3c80ec</color>
+    <color name="bg_3297ff">#3297ff</color>
+    <color name="bg_33a1ff">#33a1ff</color>
+    <color name="bg_206BE7">#206BE7</color>
+    <color name="bg_0295fa">#0295fa</color>
+    <color name="bg_0c83e2">#0c83e2</color>
+    <color name="bg_f9dfde">#f9dfde</color>
+    <color name="bg_f0f5fc">#f0f5fc</color>
+    <color name="bg_e6e6e6">#e6e6e6</color>
+    <color name="bg_e1e1e1">#e1e1e1</color>
+    <color name="bg_f3f0f0">#f3f0f0</color>
+    <color name="bg_a0a0a0">#a0a0a0</color>
+    <color name="bg_gray">#e1e1e1</color>
+
+
+
+    <color name="delete_red">#e82324</color>
+
+
+    <color name="line_e4e4e4">#e4e4e4</color>
+    <!--mainActivity-->
+    <color name="main_bottom_3e7eec">#3e7eec</color>
+    <color name="main_bottom_929292">#929292</color>
+
+    <color name="colorLineDefault">#FFAAAAAA</color>
+
+    <!--蓝色  选中下划线 -->
+    <color name="colorLineChoosed">#33B5E5</color>
+    <!--半透明蓝色  选中下划线 阴影-->
+    <color name="colorLineChoosedShadow">#8833B5E5</color>
+
+    <!--信贷工具颜色-->
+    <color name="addbankcard_hint_gray">#cdcdcd</color>
+    <color name="backgroud_f7f7f7">#f7f7f7</color>
+    <color name="red_tishi">#ee9585</color>
+    <color name="tu_blue_share">#6492e0</color>
+    <color name="tu_green_share">#70cf71</color>
+    <color name="dialog_homegengduo">#eadfd9</color>
+    <color name="gray_loan_item">#4a4a4a</color>
+    <color name="word_gray_a2a2a2">#a2a2a2</color>
+    <color name="orange_red">#fffe712c</color>
+    <color name="gray_btn_bg_pressed_color">#B6B6B6</color>
+    <color name="hint_gray">#cfcfcf</color>
+    <color name="black">#000000</color>
+    <color name="tu_green_detial">#34aa90</color>
+    <color name="material_blue_grey_100">#ff1d364c</color>
+    <color name="btn_gray">#d1d1d1</color>
+    <color name="crefit_green">#66FF66</color>
+    <color name="crefit_red">#CC0000</color>
+    <color name="crefit_yellow">#CCCC66</color>
+    <color name="crefit_deep_green">#009999</color>
+    <color name="crefit_light_green">#33FFFF</color>
+    <color name="gray_loan_line">#dcdcdc</color>
+    <color name="tu_blue_detial">#4fced5</color>
+    <color name="tu_yellow_detial">#eab653</color>
+    <color name="tu_green_deep_detial">#15a187</color>
+    <color name="tu_orange_detial">#da4435</color>
+    <color name="blue">#52b1fa</color>
+    <color name="title_color">#ffffff</color>
+    <color name="gray_house">#9c9c9c</color>
+    <color name="gray_house_sm">#7d7d7d</color>
+    <color name="gray_house_bz">#aaaaaa</color>
+
+    <!--计算器布景颜色-->
+    <color name="gray_house_bz_deep">#8b8987</color>
+    <color name="gray_gz">#f2f2f2</color>
+    <color name="gray_gz_cl">#b7c4cf</color>
+    <color name="gray_gz_no">#d9d9d9</color>
+    <color name="tu_blue">#4facf7</color>
+    <color name="tu_green">#24c9dd</color>
+    <color name="tu_yellow">#feca17</color>
+    <color name="tu_orange">#fd8140</color>
+    <color name="head_gray">#f3f3f3</color>
+</resources>

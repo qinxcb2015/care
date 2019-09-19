@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp46"
+            android:layout_marginBottom="@dimen/dp20"
+            android:background="@color/bg_f3f0f0"
+            android:gravity="center"
+            android:text="图形验证码"
+            android:textColor="@color/text_333333" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="bottom|center_horizontal">
+
+                <ImageView
+                    android:id="@+id/dialog_login_iv_picCode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitXY" />
+
+                <LinearLayout
+                    android:id="@+id/dialog_login_ll_refresh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingTop="@dimen/dp10">
+
+                    <ImageView
+                        android:id="@+id/dialog_login_iv_loading"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dp8"
+                        android:src="@mipmap/gengxin" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dp4"
+                        android:text="换一张"
+                        android:textColor="@color/text_5180bf"
+                        android:textSize="@dimen/sp12" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp40"
+                android:layout_marginLeft="@dimen/dp35"
+                android:layout_marginRight="@dimen/dp35"
+                android:layout_marginTop="@dimen/dp23"
+                android:background="@drawable/pic_code_shape">
+
+                <EditText
+                    android:id="@+id/dialog_login_et_picCode"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:hint="请输入图形中的验证码"
+                    android:maxLength="8"
+                    android:paddingLeft="@dimen/dp10"
+                    android:textColor="@color/text_333333"
+                    android:textColorHint="@color/hint_gray"
+                    android:textSize="@dimen/sp14" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dp17"
+                android:layout_marginLeft="@dimen/dp35"
+                android:layout_marginRight="@dimen/dp35"
+                android:layout_marginTop="@dimen/dp17"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:id="@+id/dialog_login_btn_cancel"
+                    android:layout_width="@dimen/dp100"
+                    android:layout_height="@dimen/dp40"
+                    android:background="@color/text_b3b1b0"
+                    android:text="@string/cancle"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/sp14" />
+
+
+                <Button
+                    android:id="@+id/dialog_login_btn_sure"
+                    android:layout_width="@dimen/dp100"
+                    android:layout_height="@dimen/dp40"
+                    android:layout_marginLeft="@dimen/dp20"
+                    android:background="@color/orange_red"
+                    android:text="@string/sure"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/sp14" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

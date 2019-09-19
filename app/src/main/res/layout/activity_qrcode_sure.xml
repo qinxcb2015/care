@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include layout="@layout/title_normal" />
+
+    <include layout="@layout/line_layout" />
+
+    <LinearLayout
+        android:id="@+id/qrcode_ll_notice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="@dimen/dp60"
+            android:layout_height="@dimen/dp60"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/dp30"
+            android:src="@mipmap/app_logo" />
+
+        <TextView
+            android:id="@+id/qrcode_ll_noticeLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/dp20"
+            android:gravity="center_horizontal"
+            android:text="@string/notice_login_kf"
+            android:textColor="@color/text_808080"
+            android:textSize="@dimen/sp16" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp40"
+            android:layout_marginLeft="@dimen/dp20"
+            android:layout_marginRight="@dimen/dp20"
+            android:layout_marginTop="@dimen/dp30"
+            android:background="@drawable/comm_r5_38b15a"
+            android:text="确认登录"
+            android:onClick="qrcodeOnSure"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp16" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp40"
+            android:layout_marginLeft="@dimen/dp20"
+            android:layout_marginRight="@dimen/dp20"
+            android:layout_marginTop="@dimen/dp20"
+            android:layout_marginBottom="@dimen/dp10"
+            android:background="@drawable/comm_r5_b7b7b7"
+            android:text="取消"
+            android:onClick="qrcodeOnCancel"
+            android:textColor="@color/text_474747"
+            android:textSize="@dimen/sp16" />
+
+    </LinearLayout>
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/qrcode_tv_notice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/wait_PC_login"
+        android:textSize="@dimen/sp13"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dp30"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/text_808080"/>
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<resources>
+    <!--共用-->
+    <string name="app_name">小小云</string>
+    <string name="save">保存</string>
+    <string name="sure">确定</string>
+    <string name="cancle">取消</string>
+    <string name="init_grantTitle">请允许获取信息</string>
+    <string name="init_grantContent">我们需要获取您的相关信息，否则您将无法正常使用小小云。</string>
+    <string name="setting_grant">您可进入手机设置-授权管理-应用权限管理设置权限</string>
+    <string name="I_know">我知道了</string>
+    <string name="wechat_success">授权成功</string>
+    <string name="wechat_fail">授权失败</string>
+    <string name="wechat_cancel">授权取消</string>
+    <string name="umeng_shared_success">分享成功</string>
+    <string name="umeng_shared_fail">分享失败</string>
+    <string name="umeng_shared_cancel">取消分享</string>
+    <string name="notice_title">提示</string>
+    <string name="notice_login_kf">确认登录跟单系统</string>
+    <string name="title_qrcode_login">小小云登录</string>
+    <string name="wait_PC_login">等待PC端的确认登录  </string>
+
+
+    <string name="time_get_yanzheng">获取验证码</string>
+    <string name="title_login">登录</string>
+    <string name="title_set">设置</string>
+    <!--//提示语言-->
+    <string name="notice_write_tel">请正确输入手机号码</string>
+    <string name="notice_write_random">请输入验证码</string>
+    <string name="notice_no_contactsUp">暂无新通话记录可上传</string>
+    <string name="notice_error_readContacts">读写通讯录失败</string>
+
+</resources>

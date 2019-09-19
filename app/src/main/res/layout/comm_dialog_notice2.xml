@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/dp25"
+    android:layout_marginRight="@dimen/dp25"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp140"
+        android:background="@drawable/dialog_shape_corner"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="@dimen/dp10"
+            android:layout_marginRight="@dimen/dp10"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/dialog_title2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="@dimen/dp12"
+                android:layout_marginTop="@dimen/dp16"
+                android:gravity="center"
+                android:textColor="@color/text_000000"
+                android:textSize="@dimen/sp14"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/dialog_content2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="@dimen/dp15"
+                android:layout_marginLeft="@dimen/dp12"
+                android:layout_marginRight="@dimen/dp12"
+                android:text="内容"
+                android:textColor="@color/text_808080"
+                android:textSize="@dimen/sp13" />
+
+        </LinearLayout>
+
+        <include layout="@layout/line_layout" />
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp40"
+            android:layout_marginLeft="@dimen/dp10"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/dialog_left2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/cancle"
+                android:textColor="@color/text_3b93f5"
+                android:textSize="@dimen/sp14" />
+
+            <View
+                android:layout_width="@dimen/line_width"
+                android:layout_height="match_parent"
+                android:background="@color/line_gray" />
+
+            <TextView
+                android:id="@+id/dialog_right2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/sure"
+                android:textColor="@color/text_3b93f5"
+                android:textSize="@dimen/sp14" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
